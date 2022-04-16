@@ -42,36 +42,3 @@ with open(nombre_archivo, "r") as archivo:
             csvfile.write(str.encode())
             print(rows)
             rows = rows+1
-
-    #andler.close()
-'''
-        print(",",
-            vendor_id,",",
-            break_up_datetime(tpep_pickup_datetime)[0],",",
-            break_up_datetime(tpep_pickup_datetime)[1],",",
-            break_up_datetime(tpep_dropoff_datetime)[0],",",
-            break_up_datetime(tpep_dropoff_datetime)[1],",",
-            passenger_count,",",
-            trip_distance,",",
-            ratecode_id,",",
-            store_and_fwd_flag,",",
-            pu_location_id,",",
-            do_location_id,",",
-            payment_type,",",
-            fare_amount,",",
-            extra,",",
-            mta_tax,",",
-            tip_amount,",",
-            tolls_amount,",",
-            improvement_surcharge,",",
-            total_amount,",",
-            co_sur,",",
-        )
-'''
-        ##print(
-          #  f"VendorID: {VendorID} - date {break_up_datetime(tpep_pickup_datetime)[0]} - date {break_up_datetime(tpep_pickup_datetime)[1]}"
-        #)
-        #print(
-        #    f"VendorID: '{VendorID}' - tpep_pickup_datetime {len(tpep_pickup_datetime)} - tpep_dropoff_datetime {tpep_dropoff_datetime}")
-
-
